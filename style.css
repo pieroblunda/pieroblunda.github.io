@@ -5,12 +5,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  padding: 5rem 1rem;
 }
 
 article {
   width: 100%;
   max-width: 680px;
-  margin: 5rem auto;
+  margin: 0 auto;
   font-size: 20px;
   line-height: 24px;
 }
