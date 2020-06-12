@@ -3,6 +3,20 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+
+  article {
+    max-width: 680px;
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   padding: 5rem 1rem;
@@ -11,16 +25,8 @@ body {
 article {
   width: 95%;
   margin: 0 auto;
-  font-size: 32px;
-  line-height: 38px;
-}
-
-@media screen and (min-width: 1440px) {
-  article {
-    max-width: 680px;
-    font-size: 20px;
-    line-height: 24px;
-  }
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 img {
@@ -35,37 +41,37 @@ h1,h2{
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 2.4rem;
   margin: 1rem;
-  line-height: 60px;
+  line-height: 3rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
   font-weight: 300;
   text-align: center;
-  border-bottom: 2px solid;
-  margin-top: 38px;
-  margin-bottom: 16px;
+  border-bottom: .1rem solid;
+  margin-top: 2rem;
+  margin-bottom: .8rem;
 }
 
 h3 {
   margin-top: 2rem;
-  margin-bottom: 4px;
-  font-size: 16px;
-  line-height: 16px;
+  margin-bottom: .2rem;
+  font-size: .8rem;
+  line-height: .8rem;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: .8rem;
   font-weight: normal;
   text-decoration: underline;
 }
 
 p {
-  margin-bottom: 8px;
+  margin-bottom: .4rem;
 }
 
 a {
@@ -78,8 +84,8 @@ ul {
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 1.5rem;
+  height: 1.5rem;
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center center;
@@ -105,11 +111,11 @@ ul {
 .light {
   font-size: 80%;
   color: #cecece;
-  margin: 0 8px;
+  margin: 0 .4rem;
 }
 
 .presentation p {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   text-align: center;
 }
