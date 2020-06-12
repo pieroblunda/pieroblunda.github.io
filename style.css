@@ -77,6 +77,31 @@ ul {
   list-style-type: none;
 }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.color-linkedin {
+  background-image: url('linkedin-brands.svg');
+  filter: invert(35%) sepia(42%) saturate(2065%) hue-rotate(171deg) brightness(93%) contrast(102%);
+}
+.color-github {
+  background-image: url('github-brands.svg');
+  filter: invert(19%) sepia(19%) saturate(1%) hue-rotate(314deg) brightness(119%) contrast(113%);
+}
+.color-telegram {
+  background-image: url('telegram-brands.svg');
+  filter: invert(33%) sepia(90%) saturate(959%) hue-rotate(169deg) brightness(103%) contrast(103%);
+}
+.color-gmail {
+  background-image: url('google-brands.svg');
+  filter: invert(46%) sepia(47%) saturate(6646%) hue-rotate(341deg) brightness(95%) contrast(94%);
+}
+
 .light {
   font-size: 80%;
   color: #cecece;
