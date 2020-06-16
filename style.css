@@ -108,6 +108,20 @@ ul {
   filter: invert(46%) sepia(47%) saturate(6646%) hue-rotate(341deg) brightness(95%) contrast(94%);
 }
 
+.personal-info {
+  font-size: 80%;
+  line-height: 130%;
+  margin: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-block {
+  display: block;
+}
+
 .light {
   font-size: 80%;
   color: #cecece;
