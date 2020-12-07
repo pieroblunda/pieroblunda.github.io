@@ -7,16 +7,6 @@ html {
   font-size: 32px;
 }
 
-@media screen and (min-width: 1440px) {
-  html {
-    font-size: 20px;
-  }
-
-  article {
-    max-width: 680px;
-  }
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   padding: 5rem 1rem 1rem 1rem;
@@ -62,6 +52,7 @@ h3 {
   margin-bottom: .2rem;
   font-size: .8rem;
   line-height: .8rem;
+  font-family: Arial;
 }
 
 h4 {
@@ -145,11 +136,28 @@ footer .GDPR {
 .light {
   font-size: 80%;
   color: #cecece;
-  margin: 0 .4rem;
+  margin: 0 4px;
 }
 
 .presentation p {
   font-size: 1.2rem;
   line-height: 1.4rem;
   text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+
+  article {
+    max-width: 680px;
+  }
+  
+  p,
+  li {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
