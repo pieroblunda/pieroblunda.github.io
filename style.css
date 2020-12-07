@@ -31,6 +31,8 @@ h1,h2{
 }
 
 h1 {
+  font-family: Arial;
+  font-weight: 300;
   font-size: 2.4rem;
   margin: 1rem;
   line-height: 3rem;
@@ -155,6 +157,10 @@ footer .GDPR {
 @media screen and (min-width: 1440px) {
   html {
     font-size: 20px;
+  }
+  
+  h1 {
+    font-family: inherit;
   }
 
   article {
