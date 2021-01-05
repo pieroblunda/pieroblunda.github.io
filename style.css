@@ -90,9 +90,17 @@ footer {
 }
 
 footer a[download] {
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
   display: block;
+  border: 1px solid;
+  width: fit-content;
+  margin: 0 auto 3rem auto;
+  padding: 20px 45px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+footer a[download]:hover {
+  background-color: #efefef;
 }
 
 footer .GDPR {
@@ -108,6 +116,7 @@ footer .GDPR {
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center center;
+  vertical-align: middle;
 }
 
 .color-linkedin {
@@ -118,13 +127,17 @@ footer .GDPR {
   background-image: url('github-brands.svg');
   filter: invert(19%) sepia(19%) saturate(1%) hue-rotate(314deg) brightness(119%) contrast(113%);
 }
-.color-telegram {
-  background-image: url('telegram-brands.svg');
-  filter: invert(33%) sepia(90%) saturate(959%) hue-rotate(169deg) brightness(103%) contrast(103%);
-}
 .color-gmail {
-  background-image: url('google-brands.svg');
+  background-image: url('at-light.svg');
   filter: invert(46%) sepia(47%) saturate(6646%) hue-rotate(341deg) brightness(95%) contrast(94%);
+}
+.icon-download {
+  background-image: url('file-pdf-light.svg');
+  width: auto;
+  padding-left: 36px;
+  background-position: 6px;
+  font-size: 16px;
+  border-left: 1px solid #cecece;
 }
 
 .personal-info {
